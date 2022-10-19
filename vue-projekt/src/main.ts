@@ -1,13 +1,16 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.js"
+
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+
+// mouting point for the whole app
 import App from './App.vue'
 import router from './router'
 
-import './assets/main.css'
+// styles
+import './assets/main.css';
+import "./assets/styles/tailwind.css";
 
 const app = createApp(App);
 

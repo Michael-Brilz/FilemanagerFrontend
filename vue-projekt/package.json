@@ -10,9 +10,11 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@material-tailwind/html": "^1.2.3",
     "@popperjs/core": "^2.11.6",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.1",
+    "chart.js": "^3.9.1",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
     "vue-axios": "^3.4.1",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
+    "@tailwindcss/forms": "^0.5.3",
     "@types/node": "^16.11.56",
     "@vitejs/plugin-vue": "^3.0.3",
     "@vitejs/plugin-vue-jsx": "^2.0.1",

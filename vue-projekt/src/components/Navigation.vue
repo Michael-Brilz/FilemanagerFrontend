@@ -20,7 +20,9 @@
         <li>
             <RouterLink to="/register">Registrieren</RouterLink>
         </li>
-       
+        <li>
+            <RouterLink to="/admin">Admin</RouterLink>
+        </li>
       </ul>
     </div>
   </div>
@@ -32,7 +34,5 @@
 </template>
 
 <style scoped>
-
-
 
 </style>
